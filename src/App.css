@@ -1,0 +1,175 @@
+.app {
+  display: flex;
+}
+.flex-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-color {
+  color: #00b39b;
+}
+
+.header {
+  display: flex;
+}
+
+.header-section {
+  align-items: center;
+}
+
+.side-para {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cadre-patient {
+  background-color: #00b39b;
+  flex-direction: row;
+
+  display: flex;
+}
+
+.cadre-doctor {
+  background-color: #4169e1;
+}
+
+.white {
+  color: white;
+}
+
+.flex-fix {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.brands__logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  -moz-transition: all 0.2s ease 0s;
+  -ms-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  fill: hsla(0, 0%, 67%, 0.7);
+}
+
+.star {
+  background: #e5faf8;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(0, 204, 177, 0.01) 5%,
+    rgba(61, 199, 223, 0.1)
+  );
+  padding: 1.875em 0 0.625em;
+  overflow: hidden;
+  margin: 3.125rem auto 5.5rem;
+}
+
+.footer-para {
+  line-height: 1.7rem;
+}
+
+.align-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section-inner {
+  padding: 0 20px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.stats .section__inner > .grid > .col-2 {
+  width: 100%;
+  float: none;
+  text-align: center;
+}
+
+.container-side {
+  display: table;
+  width: 100%;
+}
+
+.left-half {
+  position: absolute;
+  left: 0px;
+  width: 50%;
+}
+
+.right-half {
+  position: absolute;
+  right: 0px;
+  width: 50%;
+}
+
+.features {
+  display: flex;
+  background-color: #dff5f4;
+}
+.feature-card {
+  color: #00b39b;
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+  min-height: 250px;
+  border-radius: 4px;
+}
+.feature-card-description {
+  color: grey;
+}
+
+.service-card {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.service-card-options {
+  width: 100px;
+}
+.category {
+  color: white;
+}
+
+.title {
+  color: white;
+  margin: 0 0 20px;
+}
+.screenshot {
+  width: 400px;
+  align-self: flex-end;
+  position: relative;
+  right: -70px;
+}
+
+.first-section {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+
+  margin-top: 70px;
+}
+.first-section-paragraphe {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+  color: grey;
+  font-size: 17px;
+}
+.first-section-title {
+  color: #00b39b;
+}
